@@ -1,3 +1,15 @@
+body {
+  font-family: courier;
+}
+
+/* navbar */
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+/* Jumbotron */
+
 .jumbotron {
   text-align: center;
   background-image: url(https://static1.squarespace.com/static/568045695a5668eee10c9eb2/568156b427c80181bb16c889/5681580327c80181bb16de2a/1451318557306/?format=1500w);
@@ -12,16 +24,17 @@
   top: 40px;
 }
 
-.article-image {
-  Height: 300px;
-  Width: 300px;
-}
-
-.contact-details {
+.col-md-6 {
+  postion: relative;
   text-align: center;
-  list-style-type: none;
 }
 
-.row {
-  margin-bottom: 30px;
+.col-md-6 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.button-heading {
+  position: absolute;
 }
