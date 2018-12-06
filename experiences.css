@@ -18,7 +18,7 @@ ul {
 }
 
 .row {
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 
 h4 {
@@ -26,5 +26,16 @@ h4 {
 }
 
 h5 {
-  font-size: 20px;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+p {
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  h4 {
+    font-size: 30px;
+  }
 }

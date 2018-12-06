@@ -15,20 +15,25 @@ body {
   background-image: url(https://static1.squarespace.com/static/568045695a5668eee10c9eb2/568156b427c80181bb16c889/5681580327c80181bb16de2a/1451318557306/?format=1500w);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center -600px;
-  padding-top: 20px;
+  background-position: center -550px;
   color: white;
-  font-weight: bold;
-  top: 40px;
   min-height: 300px;
 }
 
 /* Headings */
 
+
 h2 {
   Font-size: 80px;
+  margin-top: 60px;
 }
 
 hr {
   color: black;
+}
+
+@media screen and (max-width: 600px) {
+  h2 {
+    font-size: 50px;
+  }
 }

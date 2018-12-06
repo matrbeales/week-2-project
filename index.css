@@ -3,8 +3,12 @@
 
 .reviews {
   border-left: 1px solid darkgrey;
+  font-style: italic;
 }
 
+.about-us-and-reviews {
+  margin-top: 60px;
+}
 
 /* Headings */
 
