@@ -1,40 +1,31 @@
-body {
-  font-family: courier;
-}
-
-/* Navbar */
-
-.navbar {
-  margin-bottom: 0px;
-}
-
-/* Jumbotron */
-
-.jumbotron {
-  text-align: right;
-  background-image: url(https://static1.squarespace.com/static/568045695a5668eee10c9eb2/568156b427c80181bb16c889/5681580327c80181bb16de2a/1451318557306/?format=1500w);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center -600px;
-  padding-top: 20px;
-  color: white;
-  font-weight: bold;
-  top: 40px;
-  min-height: 300px;
-}
 
 /* Articles */
 
 .article-image {
-  Height: 300px;
-  Width: 300px;
+  Height: 250px;
+  Width: 250px;
+  border-radius: 50%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .contact-details {
-  text-align: center;
+  text-align: left;
+  margin-top: 50px;
+}
+
+ul {
   list-style-type: none;
 }
 
 .row {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
+}
+
+h4 {
+  font-size: 50px;
+}
+
+h5 {
+  font-size: 20px;
 }
