@@ -2,6 +2,7 @@ body {
   font-family: courier;
 }
 
+/* Jumbotron */
 
 .jumbotron {
   text-align: center;
@@ -16,6 +17,8 @@ body {
 .jumbotron .col-md-12 {
   top: 40px;
 }
+
+/* Articles */
 
 .article-image {
   Height: 300px;
