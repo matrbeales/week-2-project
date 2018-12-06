@@ -18,6 +18,12 @@ body {
   background-position: center -550px;
   color: white;
   min-height: 300px;
+  max-height: 300px;
+}
+
+.jumbotron h1 {
+  padding-top: 150px;
+  font-size: 65px;
 }
 
 /* Headings */
@@ -31,6 +37,8 @@ h2 {
 hr {
   color: black;
 }
+
+/* Media Queries */
 
 @media screen and (max-width: 600px) {
   h2 {

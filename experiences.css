@@ -21,6 +21,13 @@ ul {
   margin-bottom: 60px;
 }
 
+p {
+  margin-bottom: 30px;
+}
+
+
+/* Headings */
+
 h4 {
   font-size: 50px;
 }
@@ -30,9 +37,7 @@ h5 {
   font-weight: bold;
 }
 
-p {
-  margin-bottom: 30px;
-}
+/* Media Queries */
 
 @media screen and (max-width: 600px) {
   h4 {
