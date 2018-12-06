@@ -28,3 +28,7 @@ body {
 h2 {
   Font-size: 80px;
 }
+
+hr {
+  color: black;
+}
