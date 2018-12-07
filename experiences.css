@@ -1,0 +1,46 @@
+
+/* Articles */
+
+.article-image {
+  Height: 250px;
+  Width: 250px;
+  border-radius: 50%;
+  margin-left: 10%;
+}
+
+.contact-details {
+  text-align: left;
+  margin-top: 50px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.row {
+  margin-bottom: 60px;
+}
+
+p {
+  margin-bottom: 30px;
+}
+
+
+/* Headings */
+
+h4 {
+  font-size: 50px;
+}
+
+h5 {
+  font-size: 21px;
+  font-weight: bold;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 600px) {
+  h4 {
+    font-size: 30px;
+  }
+}
